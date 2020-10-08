@@ -4,7 +4,7 @@
 * Mathias Loor
 
 # Instrucciones para compilar y ejecutar la aplicación en Ubuntu Server
-1. Ejecutar el comando sudo `ifconfig enp0s8 10.10.10.X`(x es el numero del nodo) para configurar la red interna de la máquina virtual.
+1. Ejecutar el comando `sudo ifconfig enp0s8 10.10.10.X`(x es el numero del nodo) para configurar la red interna de la máquina virtual.
 2. Instalar el jdk de java utilizando el comando `sudo apt install default-jdk`.
 3. Para comprobar que java está instalado ejecutar el comando `javac`.
 4. Antes de la ejecución del programa al archivo TCPClient.java se le debe modificar la dirección 10.10.10.1 por la que le corresponde a la máquina que hace de servidor.
